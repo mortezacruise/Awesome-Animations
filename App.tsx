@@ -6,9 +6,11 @@
  * @flow strict-local
  */
 import 'react-native-gesture-handler';
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import {Main} from './src/navigation/Main';
+
 const App = () => {
+  useEffect(() => {}, []);
   return <Main />;
 };
 export default App;

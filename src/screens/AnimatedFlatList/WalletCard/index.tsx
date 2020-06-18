@@ -18,8 +18,13 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
   },
 });
+interface WalletCardProps {
+  y: Animated.Value;
+  index: number;
+  type: Cards;
+}
 
-const WalletCard = ({type, y, index}) => {
+const WalletCard = ({type, y, index}: WalletCardProps) => {
   const position = Animated.subtract(index * CARD_HEIGHT, y);
   const isDisappearing = -CARD_HEIGHT;
   const isTop = 0;
