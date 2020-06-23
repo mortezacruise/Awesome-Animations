@@ -1,10 +1,10 @@
 import React, {useEffect, FunctionComponent} from 'react';
-import {View, Button, Text} from 'react-native';
+import {View, Button, Text, ViewProps} from 'react-native';
 import {useToggle} from '../../helperFuncs/useToggle';
 import {Flex, centerAll} from '../../values/Theme';
-type Props = {
+interface Props {
   title: String;
-};
+}
 const TypeScriptExercise: FunctionComponent<Props> = ({title}) => {
   const [visivle, toggleVisible] = useToggle(false);
 
@@ -12,7 +12,6 @@ const TypeScriptExercise: FunctionComponent<Props> = ({title}) => {
     <View style={[Flex, centerAll]}>
       <Button onPress={toggleVisible} title="CHANGE VISIBILITY" />
       {visivle && <Text>VISIBLE</Text>}
-      {/* { children } */}
     </View>
   );
 };

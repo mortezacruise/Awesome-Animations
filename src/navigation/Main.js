@@ -10,6 +10,7 @@ export const Main = () => {
   return (
     <NavigationContainer ref={navigationRef}>
       <StackNavigator />
+
       {/* <Drawer.Navigator
         drawerPosition={'right'}
         drawerContent={(props) => <DrawerScreen {...props} />}>

@@ -5,12 +5,14 @@ import {
   ANIM_FLATLIST_ROUTE,
   TITLE2,
   TS_EXERCIES,
+  AIRNB,
 } from '../../values/string';
 import {navigate} from '../../../navigationRef';
 
 const items = [
   {title: TITLE1, route: ANIM_FLATLIST_ROUTE},
   {title: TITLE2, route: TS_EXERCIES},
+  {title: TITLE2, route: AIRNB},
 ];
 
 const Home = ({navigation}: any) => {

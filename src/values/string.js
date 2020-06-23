@@ -6,3 +6,4 @@ export const TITLE2 = 'Go To TypeScript Exercise';
 export const ROUTEHOME = 'Home';
 export const ANIM_FLATLIST_ROUTE = 'AnimatedFlat';
 export const TS_EXERCIES = 'TypeScriptExercise';
+export const AIRNB = 'AIRNB';

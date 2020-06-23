@@ -161,7 +161,8 @@ export const spaceA = {
 export const spaceB = {
   justifyContent: 'space-between',
 };
-export const centerAll = {
+
+export const centerAll: Object = {
   justifyContent: 'center',
   alignItems: 'center',
 };
