@@ -31,7 +31,7 @@
     "react-native-gesture-handler": "^1.6.1",
     "react-native-image-resizer": "^1.1.0",
     "react-native-material-textfield": "^0.16.1",
-    "react-native-reanimated": "^2.0.0-alpha.1",
+    "react-native-reanimated": "^3.0.0-rc.1",
     "react-native-redash": "9.5.3",
     "react-native-rename": "^2.4.1",
     "react-native-safe-area-context": "^0.6.4",
